@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-# python fetch/iso_639/check_iso_code.py --codes fetch/fetch_unimorph/unimorph_repos.txt > fetch/fetch_unimorph/validated_codes.txt
+python fetch/iso_639/check_iso_code.py --codes fetch/fetch_unimorph/unimorph_repos.txt > fetch/fetch_unimorph/validated_codes.txt
 
 while read -r code; do
     output_dir="datasets/unimorph/${code}"
