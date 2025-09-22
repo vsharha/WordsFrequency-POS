@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-# python iso_639/check_iso_code.py --codes unimorph_repos.txt > validated_codes.txt
+python iso_639/check_iso_code.py --codes fetch_unimorph/unimorph_repos.txt > fetch_unimorph/validated_codes.txt
 
 while read -r code; do
-    output_dir="unimorph/data/${code}"
+    output_dir="datasets/unimorph/${code}"
     output_file="${code}"
 
     if [[ -f "$output_dir/$output_file" ]]; then
