@@ -5,7 +5,7 @@ set -euxo pipefail
 
 while read -r code; do
     output_dir="unimorph/data/${code}"
-    output_file="${code}.tab"
+    output_file="${code}"
 
     if [[ -f "$output_dir/$output_file" ]]; then
         echo "Skipping ${code} - file already exists: ${output_file}"
