@@ -10,7 +10,7 @@ def load_dataset_codes(dataset_path: Path | str) -> list:
 def map_iso_639_3(codes_iso_639: list) -> dict:
     mapped: dict = {}
 
-    with open("./iso-639-3.tab", "r") as f:
+    with open("./iso_639/iso-639-3.tab", "r") as f:
         reader: csv.DictReader = csv.DictReader(f, delimiter="\t")
 
         for row in reader:
