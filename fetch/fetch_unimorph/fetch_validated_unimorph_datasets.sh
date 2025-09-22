@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-python iso_639/check_iso_code.py --codes fetch_unimorph/unimorph_repos.txt > fetch_unimorph/validated_codes.txt
+# python fetch/iso_639/check_iso_code.py --codes fetch/fetch_unimorph/unimorph_repos.txt > fetch/fetch_unimorph/validated_codes.txt
 
 while read -r code; do
     output_dir="datasets/unimorph/${code}"
@@ -30,4 +30,4 @@ while read -r code; do
     echo "Downloaded ${code} dataset"
     
     sleep 5
-done < validated_codes.txt
+done < fetch/fetch_unimorph/validated_codes.txt

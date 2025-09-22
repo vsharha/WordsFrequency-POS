@@ -7,5 +7,5 @@ do
 done |
   grep ssh_url | 
   grep -o 'git@github.com:unimorph/[a-z]\{3\}.git' |
-  sed 's/.*\/\([a-z]\{3\}\)\.git/\1/' > fetch_unimorph/unimorph_repos.txt
+  sed 's/.*\/\([a-z]\{3\}\)\.git/\1/' > fetch/fetch_unimorph/unimorph_repos.txt
 
