@@ -43,7 +43,7 @@ if __name__ == "__main__":
                        help="ISO 639 or 639-3 language code (default: en)")
     parser.add_argument("--codes_file", nargs="?", default="unimorph_repos.txt", 
                        help="A file with a number of ISO 639 or 639-3 codes")
-    parser.add_argument("dataset_path", nargs="?", default="dataset", 
+    parser.add_argument("dataset_path", nargs="?", default="FrequencyWords", 
                        help="Path to the dataset directory (default: dataset)")
     parser.add_argument("--iso-file", default="./iso_639/iso-639-3.tab",
                        help="Path to ISO 639-3 file (default: ./iso_639/iso-639-3.tab)")

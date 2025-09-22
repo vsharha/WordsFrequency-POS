@@ -13,7 +13,21 @@ while read -r code; do
     fi
 
     mkdir -p ${output_dir}
-    curl -L -o "${output_dir}/${output_file}" "https://raw.githubusercontent.com/unimorph/${code}/refs/heads/master/${code}"
+
+    response=$(curl -s -L "https://raw.githubusercontent.com/unimorph/${code}/refs/heads/master/${code}")
+    if [[ "$response" == "404: Not Found" ]]; then
+        echo "404 Error on branch master, trying branch main..."
+
+        response=$(curl -s -L "https://raw.githubusercontent.com/unimorph/${code}/refs/heads/main/${code}")
+
+        if [[ "$response" == "404: Not Found" ]]; then
+            echo "Couldn't download dataset ${code}"
+            continue
+        fi
+    fi
+
+    echo "$response" > "${output_dir}/${output_file}"
     echo "Downloaded ${code} dataset"
+    
     sleep 5
 done < validated_codes.txt
