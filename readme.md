@@ -31,7 +31,7 @@ Run `sudo bash start.sh` in the terminal to get started.
 
 ### Optional to avoid ratelimiting
 
-Fet your GitHub api and add a `.env` file in the root directory with the variable "GITHUB_TOKEN".
+Get your GitHub api and add a `.env` file in the root directory with the variable "GITHUB_TOKEN".
 
 ## Generating custom datasets
 
