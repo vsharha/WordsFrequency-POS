@@ -11,7 +11,7 @@ def dataset_iterator(dir: Path, delimiter: str) -> Iterator[list]:
         for row in reader:
             yield row
 
-def unimorph_iterator(code: str, unimorph_dir: Union[Path, None, str]=None) -> Iterator[list]:
+def unimorph_iterator(code: str, unimorph_dir: Union[Path, str, None]=None) -> Iterator[list]:
     if unimorph_dir is None:
         unimorph_dir = datasets_dir / "unimorph"
 
@@ -19,7 +19,7 @@ def unimorph_iterator(code: str, unimorph_dir: Union[Path, None, str]=None) -> I
 
     return dataset_iterator(unimorph_dir/code, delimiter="\t")
 
-def frequency_iterator(code: str, frequency_dir: Union[Path, None, str]=None) -> Iterator[list]:
+def frequency_iterator(code: str, frequency_dir: Union[Path, str, None]=None) -> Iterator[list]:
     if frequency_dir is None:
         frequency_dir = datasets_dir / "frequency"
 
@@ -27,12 +27,12 @@ def frequency_iterator(code: str, frequency_dir: Union[Path, None, str]=None) ->
 
     return dataset_iterator(frequency_dir/code, delimiter=" ")
 
-def frequency_hash_iterator(code: str, frequency_dir: Union[Path, None, str]=None) -> Iterator[dict]:
+def frequency_hash_iterator(code: str, frequency_dir: Union[Path, str, None]=None) -> Iterator[dict]:
     for frequency_entry in frequency_iterator(code, frequency_dir):
         if len(frequency_entry) >= 2:
             yield {frequency_entry[0]:frequency_entry[1]}
 
-def build_frequency_map(code: str, frequency_dir: Union[Path, None, str]=None, len:Union[int, None]=None) -> dict[str, str]:
+def build_frequency_map(code: str, frequency_dir: Union[Path, str, None]=None, len:Union[int, None]=None) -> dict[str, str]:
     frequency_map: dict[str, str] = {}
 
     if len:
@@ -48,7 +48,7 @@ def build_frequency_map(code: str, frequency_dir: Union[Path, None, str]=None, l
 
     return frequency_map
 
-def combined_iterator(code: str, frequency_dir: Union[Path, None, str]=None, unimorph_dir: Union[Path, None, str]=None, frequency_map_len:Union[int, None]=None, inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True) -> Iterator[list]:
+def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map_len=None, inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True) -> Iterator[list]:
     frequency_map: dict[str, str] = build_frequency_map(code, frequency_dir, len=frequency_map_len)
 
     for morph_entry in unimorph_iterator(code, unimorph_dir):
@@ -78,7 +78,7 @@ def combined_iterator(code: str, frequency_dir: Union[Path, None, str]=None, uni
             else:
                 yield [inflected, inflected_freq]
 
-def combine_sorted_single(code: str, frequency_dir: Union[Path, None, str]=None, unimorph_dir: Union[Path, None, str]=None, max_len:Union[int, None]=None, inflections:bool=True, parts_of_speech:Union[list, None] = None, output_pos_tags:bool=True) -> list:
+def combine_sorted_single(code, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, parts_of_speech = None, output_pos_tags=True) -> list:
     combined = []
     seen_words = set()
 
@@ -99,7 +99,7 @@ def combine_sorted_single(code: str, frequency_dir: Union[Path, None, str]=None,
     combined.sort(key=lambda x: int(x[1]), reverse=True)
     return combined
 
-def combine_sorted_all(frequency_dir: Union[Path, None, str]=None, unimorph_dir: Union[Path, None, str]=None, max_len:Union[int, None]=None, inflections:bool=True) -> dict[str, list]:
+def combine_sorted_all(frequency_dir: Union[Path, str, None]=None, unimorph_dir: Union[Path, str, None]=None, max_len:Union[int, None]=None, inflections:bool=True) -> dict[str, list]:
     if frequency_dir is None:
         frequency_dir = datasets_dir / "frequency"
 
@@ -116,7 +116,7 @@ def combine_sorted_all(frequency_dir: Union[Path, None, str]=None, unimorph_dir:
 
     return output
 
-def output_combined_single(code:str, output_dir: Union[Path, None, str]=None, frequency_dir: Union[Path, None, str]=None, unimorph_dir: Union[Path, None, str]=None, max_len:Union[int, None]=None, inflections:bool=True, delimiter="\t", parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True) -> None:
+def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, delimiter="\t", parts_of_speech=None, output_pos_tags=True) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
@@ -131,7 +131,7 @@ def output_combined_single(code:str, output_dir: Union[Path, None, str]=None, fr
 
         writer.writerows(output)
 
-def output_combined(output_dir: Union[Path, None, str]=None, frequency_dir: Union[Path, None, str]=None, unimorph_dir: Union[Path, None, str]=None, max_len:Union[int, None]=None, delimiter="\t", inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True) -> None:
+def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
