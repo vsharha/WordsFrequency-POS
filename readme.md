@@ -13,9 +13,9 @@ The python application fetches the available languages for both and cross-refere
 
 Clone this repo using git and navigate to the root directory of the cloned repo.
 
-Optional to avoid ratelimiting: get your GitHub api dd a `.env` file in the root directory with the variable "GITHUB_TOKEN".
+Optional to avoid manual python venv setup: Run `sudo bash start.sh` in the terminal to get started.
 
-Run `sudo bash start.sh` in the terminal to get started.
+Optional to avoid ratelimiting: get your GitHub api and add a `.env` file in the root directory with the variable "GITHUB_TOKEN".
 
 ## Purpose
 
