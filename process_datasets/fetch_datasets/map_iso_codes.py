@@ -1,5 +1,7 @@
 import csv
 
+UNSUPPORTED = ["epo", "fin", "slk"]
+
 def map_iso_codes() -> dict:
     mapping: dict = {}
 
@@ -9,12 +11,12 @@ def map_iso_codes() -> dict:
         for row in reader:
             iso_639 = row.get("Part1")
             iso_639_3 = row.get("Id")
-            if(iso_639 and iso_639_3):
+            if(iso_639 and iso_639_3 and iso_639_3 not in UNSUPPORTED):
                 mapping[iso_639] = iso_639_3
 
     mapping['zh_cn'] = mapping['zh']
 
     return mapping
 
-def reverse_map_iso_codes() -> dict:
-    return {v:k for k, v in map_iso_codes().items()}
+# def reverse_map_iso_codes() -> dict:
+#     return {v:k for k, v in map_iso_codes().items()}

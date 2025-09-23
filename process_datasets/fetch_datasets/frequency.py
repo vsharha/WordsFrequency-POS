@@ -1,6 +1,6 @@
 import requests
 from .request_github import request_github
-from .map_iso_codes import map_iso_codes, reverse_map_iso_codes
+from .map_iso_codes import map_iso_codes
 
 import base64
 from typing import Union
@@ -51,6 +51,10 @@ def download_datasets(codes: list[str]) -> None:
 
         output_path: Path = output_dir / mapped_name
 
+        if output_path.exists():
+            print(f"Skipping {mapped_name} - file already exists")
+            continue
+
         response: requests.Response = request_github(folder["git_url"])
         files = response.json()['tree']
 
@@ -58,7 +62,6 @@ def download_datasets(codes: list[str]) -> None:
             if not "full" in file['path']:
                 continue
 
-            print(f"Downloading {mapped_name}...")
             response: requests.Response = request_github(file['url'])
             blob = response.json()
 
