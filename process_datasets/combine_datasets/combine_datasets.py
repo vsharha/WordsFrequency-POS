@@ -25,7 +25,8 @@ def frequency_iterator(code: str, frequency_dir: Union[Path, None]=None) -> Iter
 
 def frequency_hash_iterator(code: str, frequency_dir: Union[Path, None]=None) -> Iterator[dict]:
     for frequency_entry in frequency_iterator(code, frequency_dir):
-        yield {frequency_entry[0]:frequency_entry[1]}
+        if len(frequency_entry) >= 2:
+            yield {frequency_entry[0]:frequency_entry[1]}
 
 def build_frequency_map(code: str, frequency_dir: Union[Path, None]=None, len:Union[int, None]=None) -> dict[str, str]:
     frequency_map: dict[str, str] = {}
