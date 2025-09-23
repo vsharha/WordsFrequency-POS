@@ -1,2 +1,5 @@
 datasets/*
 fetch_unimorph/*.txt
+venv/*
+.env
+**/__pycache__/*

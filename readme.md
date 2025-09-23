@@ -2,18 +2,21 @@
 
 ## Description
 
-This repo will contain bash scripts to fetch the [FrequencyWords](https://github.com/hermitdave/FrequencyWords) [TBD] and [unimorph](https://github.com/unimorph/unimorph) datasets.
+This repo contains python scripts to fetch the following two datasets:
 
-The `download_all.sh` script from [unimorph](https://github.com/unimorph/unimorph) is taken as a basis in `fetch_all_codes.sh` to fetch all available unimorph language repos.
+-   [FrequencyWords](https://github.com/hermitdave/FrequencyWords) - a dataset containing the word frequency data gathered from OpenSubtitles.com
+-   [unimorph](https://github.com/unimorph/unimorph) - a collection of datasets containing morphological data for various languages
 
-The repo names are converted from ISO 639-3 3-letter language format to the ISO 639 2-letter format used by FrequencyWords according to the [ISO specification](https://iso639-3.sil.org/code_tables/download_tables) and cross-referenced to only download the languages supported by both datasets in `fetch_validated_unimorph_datasets.sh`. The code for this conversion is in `check_iso_code.py`.
-
-The `start.sh` script combines this functionality for ease of use.
+The python application fetches the available languages for both and cross-references them to download the matching datasets for both. The files from these are normalised to follow the same file structure and naming.
 
 ## Getting started
 
-Clone this repo using git and navigate to the root directory of the cloned repo. Run `bash start.sh` in the terminal to download all the necessary datasets.
+Clone this repo using git and navigate to the root directory of the cloned repo.
+
+Optional to avoid ratelimiting: get your GitHub api dd a `.env` file in the root directory with the variable "GITHUB_TOKEN".
+
+Run `sudo bash start.sh` in the terminal to get started.
 
 ## Purpose
 
-The repos will use python to combine these datasets in a singular dataset containing information about both each word's Part of Speech and its frequency. This will allow lookup of words by the Part of Speech ordered by the frequency, for example.
+The repo will use python to combine these datasets in a singular dataset containing information about both each word's Part of Speech and its frequency. This will allow for things such as i.e. the lookup of words by the Part of Speech ordered by the frequency.

@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-set -euxo pipefail
 
-# TODO: add fetching of FrequencyWords
+sudo apt upgrade
+sudo apt install python3
 
-bash fetch_unimorph/fetch_all_codes.sh
-bash fetch_unimorph/fetch_validated_unimorph_datasets.sh
+python3 -m venv venv
+pip install -r requirements.txt
+
+source ./venv/bin/activate
+python3 main.py
