@@ -59,13 +59,12 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
 
         lemma, inflected, pos_tags = morph_entry
 
-        if current_entry[0] != lemma:
+        if len(current_entry) == 0 or current_entry[0] != lemma:
             current_entry = morph_entry
 
         if parts_of_speech is not None:
-            if not all(pos in pos_tags.split(";") for pos in parts_of_speech) or check_inflections and all(pos in current_entry[2].split(";") for pos in parts_of_speech):
+            if not (all(pos in pos_tags.split(";") for pos in parts_of_speech)):
                 continue
-
 
         lemma_freq: Union[str, None] = frequency_map.get(lemma)
         inflected_freq: Union[str, None] = frequency_map.get(inflected)

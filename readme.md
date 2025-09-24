@@ -20,6 +20,7 @@ There are pre-generated datasets included in the repo. These are in the `dataset
 -   `combined` - the combined dataset with default settings
 -   `nouns` - singular nouns from each language with frequency data
 -   `verbs` - verbs from each language with frequency data
+-   `adjectives` - adjectives from each language with frequency data
 
 ## Getting started
 
