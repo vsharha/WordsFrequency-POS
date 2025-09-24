@@ -58,7 +58,6 @@ kochać	12211
 wybrać	12105
 oglądać	11856
 wyglądać	11806
-martwić się	11539
 uciekać	11506
 zaufać	11462
 słyszeć	10858
@@ -114,7 +113,6 @@ wytłumaczyć	6081
 ratować	5984
 jeździć	5927
 płakać	5902
-radzić sobie	5887
 wyrzucić	5887
 pożyczyć	5854
 ukraść	5851
@@ -146,6 +144,7 @@ zaczynać	4345
 umierać	4271
 zbierać	4253
 traktować	4209
+śmiać się	4082
 przemyśleć	4065
 dotykać	4053
 zauważyć	4004
@@ -177,6 +176,7 @@ wywołać	3032
 wynieść	3026
 zerwać	3005
 dbać	2990
+bawić się	2982
 radzić	2972
 schować	2970
 unikać	2955
@@ -188,6 +188,7 @@ korzystać	2847
 tracić	2786
 zapamiętać	2785
 opowiadać	2747
+opiekować się	2731
 głosować	2722
 rządzić	2716
 ćwiczyć	2692
@@ -196,7 +197,6 @@ podróżować	2667
 biegać	2654
 kupować	2617
 przegapić	2610
-bawić się	2603
 kopać	2600
 całować	2567
 przypominać	2533
@@ -206,14 +206,15 @@ pokazywać	2471
 wynająć	2470
 wspomnieć	2459
 rozważyć	2434
+kierować się	2364
 marnować	2363
 łapać	2360
 padać	2352
+martwić się	2349
 zarabiać	2274
 siadać	2257
 otrzymać	2249
 sprawdzać	2227
-modlić się	2183
 denerwować	2168
 sądzić	2157
 przegrać	2155
@@ -241,7 +242,6 @@ uczestniczyć	1799
 wysyłać	1793
 płynąć	1775
 ocenić	1755
-starać się	1725
 wspominać	1723
 odbierać	1705
 znosić	1701
@@ -304,7 +304,6 @@ naprawiać	1116
 składać	1093
 dowodzić	1086
 odbudować	1060
-spieszyć się	1055
 obrażać	1053
 wybuchnąć	1049
 odstawić	1041
@@ -338,7 +337,6 @@ konkurować	875
 grzebać	870
 śnić	858
 oskarżać	843
-umówić się	840
 skazać	838
 uderzać	827
 dosięgnąć	825
@@ -347,6 +345,7 @@ uśpić	813
 stanowić	805
 znikać	800
 wpływać	786
+dowiedzieć się	768
 lizać	766
 wyznaczyć	756
 przeprowadzać	750
@@ -405,14 +404,14 @@ gryźć	516
 dusić	513
 sypać	509
 prać	505
-pojawić się	502
 unicestwić	493
 drażnić	491
-pocić się	487
 machać	483
 nękać	482
+zastanawiać się	467
 dmuchać	463
 organizować	460
+myć się	453
 podrywać	453
 wymusić	450
 cofać	442
@@ -425,7 +424,6 @@ nurkować	432
 zweryfikować	432
 dokonywać	430
 poprawiać	430
-wahać się	430
 ograniczać	424
 analizować	420
 odbijać	416
@@ -446,7 +444,6 @@ rozmyślać	373
 spieprzać	370
 wąchać	364
 plotkować	360
-spodziewać się	359
 usuwać	355
 płonąć	354
 siać	349
@@ -454,7 +451,6 @@ wędrować	347
 komentować	346
 pozostawać	340
 przesadzać	336
-gapić się	334
 nakryć	330
 otrzymywać	330
 jadać	329
@@ -462,7 +458,6 @@ wiosłować	324
 eksperymentować	323
 dochodzić	318
 włączać	315
-lękać się	313
 szczekać	312
 kroić	310
 pluć	304
@@ -470,7 +465,6 @@ gromadzić	303
 ruchać	300
 pędzić	299
 maszerować	296
-myć się	296
 pęknąć	296
 zachorować	296
 obciążać	291
@@ -483,11 +477,11 @@ wypędzić	282
 zakazać	281
 wyłączać	280
 pachnieć	275
+starać się	273
 gwizdać	271
 zazdrościć	268
 sfałszować	264
 wyć	252
-umyć się	248
 cytować	245
 gasić	240
 dymać	238
@@ -505,9 +499,7 @@ ryczeć	214
 gwałcić	212
 kibicować	208
 brudzić	207
-kłócić się	207
 rozpaczać	206
-zastanawiać się	205
 doprowadzać	204
 harować	200
 medytować	198
@@ -516,6 +508,8 @@ cenić	196
 wdychać	196
 mrugać	195
 wyjebać	195
+spodziewać się	192
+umyć się	191
 zdiagnozować	189
 drżeć	188
 odwzajemnić	185
@@ -525,7 +519,6 @@ zajebać	183
 tonąć	182
 identyfikować	181
 schlebiać	181
-ogolić się	179
 pękać	179
 notować	178
 obiecywać	177
@@ -536,6 +529,7 @@ zalogować	170
 wkurwiać	163
 gardzić	161
 podlewać	161
+czaić się	159
 połykać	159
 kopiować	158
 mijać	153
@@ -549,7 +543,6 @@ pierdzieć	145
 wyłudzić	145
 imponować	144
 poróżnić	143
-golić się	142
 podkradać	142
 zarżnąć	142
 klęczeć	141
@@ -564,10 +557,10 @@ potwierdzać	128
 doić	126
 nadepnąć	126
 kosić	124
+przeprowadzać się	124
 zaniechać	124
 bredzić	123
 pożądać	123
-umawiać się	122
 wyjrzeć	121
 grzeszyć	118
 łudzić	118
@@ -576,9 +569,7 @@ piszczeć	118
 zbyć	118
 przysięgać	114
 poruchać	113
-zakochać się	113
 symulować	112
-rozmyślić się	111
 zwyciężać	111
 rozróżniać	110
 klękać	108
@@ -589,11 +580,11 @@ siusiać	105
 miewać	104
 przeżuć	102
 suszyć	101
-wykrwawić się	101
-śmiać się	100
 spiąć	100
+umawiać się	96
 warczeć	95
 pokrywać	94
+gapić się	93
 nalewać	93
 podkreślać	92
 rąbać	92
@@ -631,7 +622,7 @@ kąsać	61
 napierdalać	60
 opatentować	60
 przypuścić	60
-rozwijać się	57
+pojawiać się	56
 szastać	56
 tyć	56
 zamarzać	56
@@ -641,6 +632,7 @@ wyświetlać	54
 mruczeć	53
 przyprawiać	53
 skracać	51
+umówić się	51
 zestawić	51
 odczynić	50
 zapierdalać	50
@@ -651,12 +643,12 @@ diagnozować	48
 brodzić	47
 nadchodzić	47
 cudzołożyć	46
-dowiedzieć się	46
 kimać	46
 ujadać	46
 obalać	44
 dupczyć	43
 oświetlać	43
+tleć	42
 edytować	41
 rozgrzeszyć	41
 drgać	40
@@ -680,6 +672,7 @@ klikać	33
 przepić	33
 razić	33
 polecać	32
+zakochać się	32
 eksportować	31
 dziobać	30
 poić	30
@@ -693,8 +686,6 @@ dumać	29
 jebnąć	29
 kłusować	29
 odjebać	29
-pojawiać się	29
-dodzwonić się	28
 galopować	28
 zaruchać	28
 zdobić	28
@@ -709,13 +700,13 @@ jodłować	26
 kajać	26
 potakiwać	26
 wydostawać	26
-wydostawać się	26
 zdementować	26
 złupić	25
 majsterkować	23
-zesrać się	23
+wymiksować się	23
 hasać	22
 mknąć	22
+wahać się	22
 gaworzyć	21
 miauczeć	21
 rżeć	21
@@ -725,7 +716,9 @@ trącić	20
 błyskać	19
 dedykować	19
 kipieć	19
+rozwijać się	19
 schnąć	19
+wykrwawić się	19
 bankrutować	18
 broić	18
 łaknąć	18
@@ -738,7 +731,6 @@ przodować	17
 zwymyślać	17
 grzmieć	16
 małpować	16
-przeprowadzać się	16
 przezimować	16
 wyłudzać	16
 pląsać	15
@@ -748,15 +740,18 @@ chłeptać	13
 demontować	12
 nęcić	12
 numerować	12
+ogolić się	12
+rozmyślić się	12
+słynąć	12
 stygnąć	12
 lgnąć	11
 opierdolić	11
+pojawić się	11
 rozsadzać	11
-więznąć	11
-chełpić się	10
-jonizować	10
+jawić się	10
 kicać	10
 koić	10
+lękać się	10
 poprzedzać	10
 rozmyć	10
 szczuć	10
@@ -774,66 +769,73 @@ niknąć	8
 parskać	8
 podpierdolić	8
 rozmywać	8
-słynąć	8
 wyhaftować	8
+chełpić się	7
 egzaminować	7
 napowietrzyć	7
 świerzbić	7
 wyżąć	7
-czaić się	6
+kłócić się	6
 kwilić	6
-opiekować się	6
 refować	6
 skompilować	6
 śniadać	6
 spałaszować	6
+zesrać się	6
 betonować	5
 linieć	5
+przekomarzać się	5
 tajać	5
 zaimportować	5
 buchać	4
 cedzić	4
+golić się	4
 iskać	4
+modlić się	4
 obuć	4
 przekwitać	4
 gorzeć	3
 graniczyć	3
 grzęznąć	3
-kierować się	3
 lutować	3
-mądrzyć się	3
-przekomarzać się	3
 ripostować	3
-smutać	3
 sprząc	3
+wydostawać się	3
 zainsynuować	3
 bełtać	2
 charkać	2
 drylować	2
 gęgać	2
-jawić się	2
 konfigurować	2
 mądrzeć	2
 mierzić	2
+obrzęknąć	2
+pocić się	2
+radzić sobie	2
 róść	2
 roztrzepać	2
 sarkać	2
-szarogęsić się	2
+więznąć	2
 wylaszczyć się	2
-wymiksować się	2
 wytryskiwać	2
 zerować	2
-ziębnąć	2
 zmartwychwstawać	2
 czeznąć	1
+dodzwonić się	1
+guglać	1
 jąć	1
+jonizować	1
 kukać	1
+mądrzyć się	1
 mrzeć	1
-obrzęknąć	1
 podochodzić	1
 siąknąć	1
 śmieszkować	1
+smutać	1
+spieszyć się	1
+szarogęsić się	1
 trzebić	1
 wonieć	1
 zaiwanić	1
 zantagonizować	1
+ziębnąć	1

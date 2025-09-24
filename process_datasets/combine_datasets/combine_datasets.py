@@ -62,12 +62,12 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
         if len(current_entry) == 0 or current_entry[0] != lemma:
             current_entry = morph_entry
 
-        if parts_of_speech is not None:
-            if not (all(pos in pos_tags.split(";") for pos in parts_of_speech)):
-                continue
-
         lemma_freq: Union[str, None] = frequency_map.get(lemma)
         inflected_freq: Union[str, None] = frequency_map.get(inflected)
+
+        if parts_of_speech is not None:
+            if not (all(pos in pos_tags.split(";") for pos in parts_of_speech)) and not (check_inflections and all(pos in current_entry[2].split(";") for pos in parts_of_speech)):
+                continue
 
         if lemma_freq and lemma_freq.isnumeric():
             if output_pos_tags:
@@ -75,17 +75,17 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
             else:
                 yield [lemma, lemma_freq]
 
-        if check_inflections and inflected_freq and inflected_freq.isnumeric():
-            if output_pos_tags:
-                yield [lemma, inflected_freq, current_entry[2]]
+        if inflected_freq and inflected_freq.isnumeric():
+            if check_inflections:
+                if output_pos_tags:
+                    yield [current_entry[0], inflected_freq, current_entry[2]]
+                else:
+                    yield [current_entry[0], inflected_freq]
             else:
-                yield [lemma, inflected_freq]
-
-        if inflections and inflected_freq and inflected_freq.isnumeric():
-            if output_pos_tags:
-                yield [inflected, inflected_freq, pos_tags]
-            else:
-                yield [inflected, inflected_freq]
+                if output_pos_tags:
+                    yield [inflected, inflected_freq, pos_tags]
+                else:
+                    yield [inflected, inflected_freq]
 
 def combine_sorted_single(code, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, parts_of_speech = None, output_pos_tags=True, check_inflections=False) -> list:
     combined = []

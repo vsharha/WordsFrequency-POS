@@ -13,7 +13,6 @@ tentar	125382
 sair	124579
 pensar	121988
 voltar	103862
-delir	82793
 ajudar	82459
 encontrar	80656
 passar	79691
@@ -94,7 +93,6 @@ aprender	18986
 parecer	18422
 confiar	18313
 lidar	18155
-regrar	18140
 funcionar	17865
 vender	17732
 esquecer	17209
@@ -212,7 +210,6 @@ sentar	6841
 experimentar	6624
 permitir	6601
 atravessar	6561
-festar	6532
 carregar	6428
 estragar	6428
 defender	6421
@@ -380,7 +377,6 @@ recuar	2873
 mijar	2869
 atrair	2868
 trair	2853
-seriar	2852
 arruinar	2851
 aceder	2836
 derrubar	2819
@@ -410,7 +406,6 @@ interferir	2553
 reclamar	2551
 preencher	2541
 conquistar	2529
-ilhar	2523
 produzir	2515
 remover	2510
 estabelecer	2508
@@ -471,7 +466,6 @@ bloquear	2019
 dobrar	2017
 encobrir	1965
 demonstrar	1961
-barrir	1951
 pressionar	1950
 engolir	1941
 armar	1932
@@ -504,7 +498,6 @@ acampar	1768
 declarar	1766
 cruzar	1751
 ensaiar	1740
-ponhar	1725
 reconstruir	1724
 descarregar	1722
 sacrificar	1714
@@ -642,7 +635,6 @@ indicar	1196
 pesar	1194
 promover	1192
 ferver	1190
-florestar	1189
 lamentar	1187
 torturar	1178
 esforçar	1177
@@ -929,13 +921,11 @@ falsificar	531
 ampliar	526
 antecipar	526
 fortalecer	526
-airar	525
 conservar	525
 desmoronar	525
 infringir	525
 estrangular	524
 lucrar	524
-desconfortar	523
 meditar	518
 assar	517
 vibrar	517
@@ -1094,6 +1084,8 @@ suceder	356
 triangular	355
 assimilar	354
 bastar	354
+desconfortar	352
+convencionar	349
 suprimir	348
 associar	346
 ditar	346
@@ -1322,9 +1314,9 @@ exceder	217
 ausentar	216
 coincidir	216
 implantar	216
-guindar	215
 estranhar	214
 acessar	213
+excepcionar	213
 malhar	212
 maltratar	211
 peidar	210
@@ -1355,6 +1347,7 @@ despedaçar	202
 digitar	201
 confraternizar	200
 transbordar	200
+florestar	199
 remendar	199
 sincronizar	198
 suavizar	198
@@ -1408,7 +1401,6 @@ omitir	177
 reconciliar	177
 rugir	177
 multiplicar	175
-soer	175
 ansiar	174
 jorrar	174
 raiar	174
@@ -1895,6 +1887,7 @@ diluir	73
 electrocutar	73
 rufar	73
 subverter	73
+afundir	72
 cobiçar	72
 discernir	72
 gamar	72
@@ -1929,7 +1922,6 @@ mitigar	68
 oprimir	68
 decretar	67
 desandar	67
-missar	67
 revitalizar	67
 tresandar	67
 vacinar	67
@@ -1954,6 +1946,7 @@ sentenciar	64
 amontoar	63
 descortinar	63
 desmanchar	63
+desperceber	63
 escassear	63
 faturar	63
 flanquear	63
@@ -2023,8 +2016,6 @@ linchar	57
 remontar	57
 açoitar	56
 aplacar	56
-bainhar	56
-escaramuçar	56
 naufragar	56
 recalcular	56
 transcrever	56
@@ -2047,7 +2038,6 @@ pulinhar	53
 rebelar	53
 reconfortar	53
 sortear	53
-tormentar	53
 dourar	52
 fluoretar	52
 folgar	52
@@ -2146,7 +2136,6 @@ encriptar	43
 engrenar	43
 agoirar	42
 contrabalançar	42
-cubar	42
 desconhecer	42
 despender	42
 esquadrinhar	42
@@ -2183,7 +2172,6 @@ inicializar	40
 polinizar	40
 povoar	40
 realojar	40
-tachar	40
 untar	40
 afeiçoar	39
 afrontar	39
@@ -2261,6 +2249,7 @@ convalescer	34
 deformar	34
 desabilitar	34
 estampar	34
+exceller	34
 extirpar	34
 harmonizar	34
 inquietar	34
@@ -2269,7 +2258,6 @@ nacionalizar	34
 transitar	34
 vegetar	34
 abstrair	33
-afundir	33
 atalhar	33
 boxear	33
 decrescer	33
@@ -2513,7 +2501,6 @@ paralizar	20
 postular	20
 quarentenar	20
 reincidir	20
-sisar	20
 surrar	20
 aflorar	19
 alforriar	19
@@ -2530,6 +2517,7 @@ entortar	19
 estraçalhar	19
 objetar	19
 proliferar	19
+rarefazer	19
 rascar	19
 refrigerar	19
 requintar	19
@@ -2624,7 +2612,6 @@ deletar	15
 depurar	15
 desconversar	15
 desmerecer	15
-estatuir	15
 estressar	15
 excretar	15
 friccionar	15
@@ -2634,6 +2621,7 @@ numerar	15
 papaguear	15
 passarinhar	15
 pastorear	15
+seriar	15
 sibilar	15
 sobrepujar	15
 zurrar	15
@@ -2678,9 +2666,9 @@ exclamar	13
 exultar	13
 gargalhar	13
 otimizar	13
+prurir	13
 sulcar	13
 tiranizar	13
-turbar	13
 acervar	12
 agourar	12
 alcatroar	12
@@ -2723,7 +2711,6 @@ batucar	11
 cafetinar	11
 calcificar	11
 cambiar	11
-comendar	11
 costumar	11
 denominar	11
 desapegar	11
@@ -2808,7 +2795,6 @@ grosar	9
 grudar	9
 inculcar	9
 intersectar	9
-mascavar	9
 perspectivar	9
 privilegiar	9
 prognosticar	9
@@ -2819,9 +2805,11 @@ transladar	9
 versar	9
 alevantar	8
 alunar	8
+aluviar	8
 antropomorfizar	8
 aquiescer	8
 arquejar	8
+barrir	8
 brecar	8
 cadastrar	8
 capitanear	8
@@ -2904,7 +2892,6 @@ guisar	7
 ilegalizar	7
 impactar	7
 industrializar	7
-lotear	7
 mimir	7
 mixar	7
 paparicar	7
@@ -2912,9 +2899,7 @@ papear	7
 picotar	7
 prantear	7
 quelatar	7
-rastelar	7
 reassegurar	7
-resenhar	7
 ressalvar	7
 sagrar	7
 segmentar	7
@@ -2928,6 +2913,7 @@ vadear	7
 acicatar	6
 acrescer	6
 adelgaçar	6
+airar	6
 alhear	6
 amontar	6
 antipatizar	6
@@ -2951,6 +2937,7 @@ lambujar	6
 macerar	6
 orçar	6
 plugar	6
+ponhar	6
 predar	6
 quintuplicar	6
 reaproveitar	6
@@ -2966,6 +2953,7 @@ tremular	6
 tuitar	6
 uniformizar	6
 voltear	6
+abismar	5
 abrasar	5
 accordar	5
 admoestar	5
@@ -2976,6 +2964,7 @@ apologizar	5
 arcabuzar	5
 aventar	5
 avir	5
+bainhar	5
 caiar	5
 canonizar	5
 carecer	5
@@ -3008,7 +2997,6 @@ predominar	5
 prefaciar	5
 rascunhar	5
 recobrir	5
-sincopar	5
 sobressaltar	5
 soçobrar	5
 solapar	5
@@ -3019,10 +3007,7 @@ trejeitar	5
 trinar	5
 tumultuar	5
 vexar	5
-vidrar	5
 vogar	5
-vulnerar	5
-acerar	4
 acometer	4
 advocar	4
 aglutinar	4
@@ -3068,6 +3053,7 @@ enrubescer	4
 entabular	4
 entravar	4
 esfomear	4
+estatuir	4
 estivar	4
 estrumar	4
 florear	4
@@ -3098,6 +3084,7 @@ sumariar	4
 supervisar	4
 timbrar	4
 ultrajar	4
+varear	4
 vigorar	4
 abastardar	3
 acanhar	3
@@ -3136,7 +3123,7 @@ decuplicar	3
 defenestrar	3
 degelar	3
 deificar	3
-denigrir	3
+delir	3
 denotar	3
 desabituar	3
 descarrilhar	3
@@ -3181,9 +3168,12 @@ postergar	3
 pressagiar	3
 problematizar	3
 pulicar	3
+putrefazer	3
 rebatizar	3
 recopiar	3
+recozer	3
 repugnar	3
+resenhar	3
 retesar	3
 rotacionar	3
 rotear	3
@@ -3193,6 +3183,7 @@ surrupiar	3
 tabular	3
 tensionar	3
 tipificar	3
+tormentar	3
 tosar	3
 tripudiar	3
 tutorar	3
@@ -3202,6 +3193,7 @@ vergastar	3
 vitrificar	3
 volatilizar	3
 aberrar	2
+abespinhar	2
 abnegar	2
 abobadar	2
 açucarar	2
@@ -3209,11 +3201,9 @@ adestrar	2
 aditar	2
 aloirar	2
 alquilar	2
-aluviar	2
 americanizar	2
 amimar	2
 amortalhar	2
-aniversariar	2
 apiedar	2
 apor	2
 apoucar	2
@@ -3221,6 +3211,8 @@ aquartelar	2
 argentar	2
 arianizar	2
 aromatizar	2
+arraigar	2
+arrecear	2
 arremedar	2
 arroubar	2
 atroar	2
@@ -3232,7 +3224,6 @@ caraterizar	2
 catalizar	2
 chifrar	2
 clorar	2
-coassinar	2
 comboiar	2
 complexar	2
 compostar	2
@@ -3240,8 +3231,10 @@ conceituar	2
 contender	2
 curto-circuitar	2
 deflorar	2
+denigrir	2
 derribar	2
 desagravar	2
+desasar	2
 desentranhar	2
 desjejuar	2
 desoxidar	2
@@ -3258,7 +3251,7 @@ encarquilhar	2
 enfileirar	2
 engabelar	2
 engolfar	2
-entremear	2
+entumescer	2
 erotizar	2
 escarrar	2
 esconjurar	2
@@ -3267,6 +3260,7 @@ esterrar	2
 estilizar	2
 estralar	2
 estropear	2
+extasiar	2
 feltrar	2
 franquiar	2
 gatunar	2
@@ -3276,10 +3270,14 @@ googlar	2
 grugulejar	2
 homogeneizar	2
 homologar	2
+ilhar	2
 imprecar	2
 incisar	2
 incumbir	2
+intumescer	2
+justapor	2
 magnificar	2
+missar	2
 monologar	2
 moshar	2
 mosquear	2
@@ -3294,6 +3292,7 @@ perpassar	2
 petrificar	2
 plainar	2
 preterir	2
+propulsar	2
 provisionar	2
 pulular	2
 rastrejar	2
@@ -3309,11 +3308,13 @@ retinir	2
 retrucar	2
 reverberar	2
 rilhar	2
+tachar	2
 tangar	2
 telecomandar	2
 tergiversar	2
 ticar	2
 tunar	2
+turbar	2
 ulular	2
 valorar	2
 vaticinar	2
@@ -3324,12 +3325,11 @@ abainhar	1
 abandar	1
 abandeirar	1
 abastar	1
-abespinhar	1
 abicar	1
-abismar	1
 ab-rogar	1
 acabrunhar	1
 acastanhar	1
+acerar	1
 acidificar	1
 acoimar	1
 açoutar	1
@@ -3350,6 +3350,7 @@ altercar	1
 amanteigar	1
 amurar	1
 anglicizar	1
+aniversariar	1
 anodizar	1
 anquilosar	1
 antedatar	1
@@ -3384,6 +3385,7 @@ cadear	1
 calcinar	1
 cardar	1
 carrear	1
+catequizar	1
 caucionar	1
 cevar	1
 cheguar	1
@@ -3394,11 +3396,13 @@ cisalhar	1
 cisar	1
 coadjuvar	1
 coalescer	1
+coassinar	1
 coibir	1
 coisificar	1
 coitar	1
 colorar	1
 combalir	1
+comendar	1
 concretar	1
 conflitar	1
 congraçar	1
@@ -3408,22 +3412,24 @@ conotar	1
 consternar	1
 contrabalancear	1
 convalidar	1
-convencionar	1
 cornear	1
 correlatar	1
 cotejar	1
 craquear	1
 credenciar	1
 crestar	1
+cricrilar	1
+cubar	1
 cumular	1
 dadivar	1
 damnar	1
 dardejar	1
 debugar	1
 decender	1
+derruir	1
+desagradecer	1
 desalentar	1
 desancorar	1
-desasar	1
 descaroçar	1
 desdar	1
 desembestar	1
@@ -3450,6 +3456,7 @@ empapelar	1
 empiorar	1
 emudecer	1
 encapar	1
+encaroçar	1
 encordoar	1
 endeusar	1
 enfarinhar	1
@@ -3460,10 +3467,13 @@ engastar	1
 ensejar	1
 entitular	1
 entrecortar	1
+entremear	1
+entreolhar	1
 entronar	1
 entronizar	1
 esbatar	1
 escalonar	1
+escaramuçar	1
 escriturar	1
 esculachar	1
 esgarçar	1
@@ -3474,6 +3484,7 @@ esporar	1
 esquilar	1
 estandardizar	1
 estanhar	1
+estatizar	1
 estenografar	1
 esterelizar	1
 estiolar	1
@@ -3486,12 +3497,15 @@ exceptuar	1
 excetuar	1
 excutir	1
 exhalar	1
+expatriar	1
 expectorar	1
-extasiar	1
 extratar	1
 fadigar	1
+fallecer	1
 fenar	1
+festar	1
 finlandizar	1
+fissionar	1
 fissurar	1
 fraccionar	1
 freiar	1
@@ -3506,6 +3520,7 @@ ginasticar	1
 glosar	1
 googlear	1
 granizar	1
+guindar	1
 hibridizar	1
 idear	1
 incrustar	1
@@ -3520,11 +3535,16 @@ joeirar	1
 jubilar	1
 kickar	1
 lampejar	1
+locupletar	1
+lotear	1
 luitar	1
+macaquear	1
 madurar	1
 maiuscular	1
 maltar	1
 manufaturar	1
+mascatear	1
+mascavar	1
 massificar	1
 matear	1
 mear	1
@@ -3561,7 +3581,7 @@ pré-datar	1
 predicar	1
 presupor	1
 printar	1
-propulsar	1
+prohibir	1
 proscrever	1
 proselitar	1
 pruir	1
@@ -3570,9 +3590,11 @@ quedar	1
 quintar	1
 randomizar	1
 rangar	1
+rastelar	1
 ratear	1
 rearrumar	1
 recurvar	1
+regrar	1
 relvar	1
 remanescer	1
 rendar	1
@@ -3585,10 +3607,13 @@ rocar	1
 salmourar	1
 selectar	1
 semelhar	1
+sincopar	1
 sincretizar	1
+sisar	1
 sobejar	1
 sobre-estimar	1
 sobresair	1
+soer	1
 sofismar	1
 stalkear	1
 substantivar	1
@@ -3615,10 +3640,12 @@ vacar	1
 veranear	1
 versificar	1
 vicejar	1
+vidrar	1
 vilificar	1
 vindimar	1
 vitoriar	1
 vulcanizar	1
+vulnerar	1
 xerocar	1
 zanzar	1
 zipar	1

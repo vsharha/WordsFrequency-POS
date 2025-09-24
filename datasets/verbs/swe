@@ -367,6 +367,7 @@ informera	1464
 skita	1455
 kosta	1452
 råna	1444
+undantaga	1436
 respektera	1431
 trötta	1425
 planera	1415
@@ -383,6 +384,7 @@ knäcka	1352
 överraska	1347
 locka	1336
 knäppa	1334
+se ut	1330
 plugga	1328
 smyga	1325
 uttrycka	1322
@@ -476,7 +478,6 @@ läka	935
 släcka	933
 utplåna	932
 smita	930
-våldtaga	929
 mena	929
 bevaka	926
 krypa	913
@@ -500,6 +501,7 @@ sopa	841
 reparera	840
 värma	839
 anpassa	837
+må illa	836
 mista	828
 tveka	826
 likna	824
@@ -547,7 +549,6 @@ tortera	722
 besvära	721
 lata	721
 ansluta	718
-dåra	715
 svälta	715
 investera	713
 uppenbara	712
@@ -665,7 +666,6 @@ betrakta	517
 angripa	517
 besluta	516
 tjalla	515
-tunnla	515
 uträtta	513
 tolka	511
 fullfölja	510
@@ -712,6 +712,7 @@ publicera	472
 förvåna	471
 anstränga	470
 väga	469
+äta upp	468
 inleda	467
 tyda	465
 undgå	465
@@ -739,14 +740,15 @@ rycka	439
 fästa	439
 sona	437
 transportera	436
+tycka om	435
 utstå	434
 ödsla	432
 borra	432
 protestera	432
 intressera	430
 representera	430
+lägga in	430
 förse	429
-angiva	429
 förvara	426
 notera	425
 chansa	423
@@ -788,8 +790,10 @@ stärka	378
 frigöra	377
 installera	375
 bortse	375
+sätta upp	375
 skingra	372
 tåla	371
+skämma bort	371
 böna	367
 hissa	367
 döva	366
@@ -900,6 +904,7 @@ belöna	269
 överdriva	269
 trakassera	268
 langa	267
+tillväxa	266
 signalera	266
 pippa	266
 resonera	264
@@ -955,6 +960,7 @@ pausa	232
 inspektera	231
 konkurrera	231
 misstro	231
+våldtaga	230
 amma	230
 färja	230
 anse	229
@@ -964,7 +970,6 @@ insistera	224
 jogga	224
 skina	221
 slinka	220
-uppgiva	218
 vagga	218
 dräpa	218
 syna	218
@@ -986,6 +991,7 @@ beräkna	208
 beväpna	208
 mjölka	207
 lira	207
+föredraga	207
 verifiera	206
 kombinera	205
 förmå	205
@@ -1099,9 +1105,11 @@ inkludera	157
 snöa	156
 försvaga	156
 minimera	156
+höra till	156
 redogöra	155
 tänja	155
 annonsera	154
+svara mot	154
 offentliggöra	154
 absorbera	153
 amputera	153
@@ -1121,6 +1129,7 @@ välta	148
 anordna	148
 grina	148
 utgöra	148
+slå in	148
 värdera	148
 begrunda	147
 sabla	147
@@ -1136,7 +1145,6 @@ vaxa	142
 rasera	142
 jubla	142
 synda	142
-medgiva	141
 konvertera	141
 beröra	140
 uppgradera	140
@@ -1170,6 +1178,7 @@ söla	133
 bedriva	133
 spräcka	133
 borda	133
+skriva in	132
 mygga	132
 förakta	132
 koordinera	131
@@ -1283,6 +1292,7 @@ infektera	102
 mildra	102
 kröka	102
 lemlästa	102
+bjuda in	101
 avböja	101
 täppa	101
 rapa	101
@@ -1321,7 +1331,6 @@ nobba	94
 serva	94
 forcera	94
 försvåra	93
-avgiva	93
 skyldra	93
 hamra	93
 precisera	93
@@ -1362,6 +1371,7 @@ konstatera	86
 fäktas	85
 tillägna	85
 omformulera	85
+ta ut	85
 undergräva	85
 poängtera	85
 utrusta	85
@@ -1376,6 +1386,7 @@ efterträda	83
 röva	83
 ljuda	83
 plöja	83
+hålla i	82
 sparra	82
 tillhandahålla	81
 blända	81
@@ -1418,6 +1429,7 @@ dona	75
 tilldela	75
 förmoda	74
 medla	74
+spela in	74
 porta	73
 rysa	73
 yrka	73
@@ -1432,7 +1444,6 @@ inrätta	70
 vibrera	70
 skildra	70
 klistra	70
-övertaga	70
 väva	70
 stifta	70
 taga	69
@@ -1488,6 +1499,7 @@ chatta	61
 gjuta	61
 konka	61
 delegera	61
+tala om	61
 svälla	61
 konspirera	61
 gruppera	61
@@ -1526,12 +1538,12 @@ kvalificera	56
 lufta	56
 komponera	55
 rehabilitera	55
+hålla inne	55
 ina	55
 orientera	55
 palla	55
 glöda	54
 snyta	54
-ådraga	54
 deltaga	54
 bräcka	54
 avskriva	54
@@ -1548,6 +1560,7 @@ besätta	52
 reproducera	52
 illustrera	52
 panta	52
+sätta fast	52
 inaktivera	52
 stena	52
 kröna	52
@@ -1636,6 +1649,7 @@ kugga	41
 stympa	41
 orda	41
 försämra	41
+övertaga	41
 samverka	40
 inbjuda	40
 slunga	40
@@ -1650,6 +1664,7 @@ förespråka	40
 nedvärdera	40
 blixtra	40
 desinficera	40
+repa upp	40
 förtälja	40
 rygga	40
 gäcka	40
@@ -1659,6 +1674,7 @@ exportera	39
 avbilda	39
 strosa	38
 förankra	38
+känna igen	38
 fallera	38
 befolka	38
 gardera	38
@@ -1667,6 +1683,7 @@ sjukskriva	38
 fräsa	38
 lattja	38
 syntetisera	38
+se upp	37
 skalla	37
 deaktivera	37
 partaja	37
@@ -1688,7 +1705,9 @@ skulptera	36
 överväldiga	36
 annullera	36
 tryta	36
+ådraga	36
 referera	36
+ta av	36
 länsa	35
 abdikera	35
 lämpa	35
@@ -1723,6 +1742,7 @@ bötfälla	31
 positionera	31
 kånka	31
 förvrida	31
+angiva	31
 entlediga	31
 halvera	31
 sporta	31
@@ -1744,6 +1764,7 @@ häfta	29
 nöta	29
 kisa	28
 olla	28
+dyka upp	28
 jäsa	28
 mäkla	28
 blänga	28
@@ -1760,6 +1781,7 @@ nätverka	27
 bäva	27
 lotsa	27
 gnistra	27
+gå upp	27
 regla	27
 optimera	27
 kvickna	27
@@ -1785,15 +1807,18 @@ försäga	25
 tvista	25
 propagera	25
 paketera	25
+höra upp	25
 virka	25
 framhålla	25
 eftersträva	25
 effektivisera	25
 duplicera	25
 uppgå	24
+framåtskrida	24
 gita	24
 hyperventilera	24
 dividera	24
+rama in	24
 hamstra	24
 extrapolera	24
 klassa	23
@@ -1805,10 +1830,10 @@ bifoga	23
 centrera	23
 tillbedja	23
 diskriminera	23
-förbehålla	23
 smycka	23
 klassificera	22
 samköra	22
+gifta bort	22
 implementera	22
 degradera	22
 husera	22
@@ -1837,6 +1862,7 @@ ansa	20
 betäcka	20
 förädla	20
 kvarstå	20
+reda ut	20
 digitalisera	19
 smaska	19
 jama	19
@@ -1844,6 +1870,8 @@ mikra	19
 bifalla	19
 förkroppsliga	19
 vanka	18
+avgiva	18
+skula	18
 angå	18
 valka	18
 subtrahera	18
@@ -1864,6 +1892,7 @@ turista	17
 tillgodogöra	17
 diskvalificera	17
 handleda	17
+ställa upp	17
 normalisera	17
 snida	17
 gnägga	17
@@ -1873,11 +1902,13 @@ disponera	16
 förefalla	16
 acklimatisera	16
 borga	16
+medgiva	16
 formatera	16
 lagstifta	16
 språka	16
 försova	16
 svalla	16
+slå upp	16
 inbegripa	16
 författa	16
 etsa	15
@@ -1888,15 +1919,18 @@ plagiera	15
 näcka	15
 sammanträda	15
 profitera	15
+föra in	15
 falna	15
 narra	15
 adressera	15
+lägga ut	15
 dala	15
 strukturera	15
 gradera	15
 transkribera	15
 dabba	15
 sanda	14
+receptbelägga	14
 toffla	14
 mygla	14
 underordna	14
@@ -1913,8 +1947,8 @@ skymta	14
 ratificera	14
 porträttera	13
 numrera	13
-företaga	13
 förslå	13
+ladda ned	13
 flanera	13
 slanga	13
 härbärgera	13
@@ -1929,7 +1963,6 @@ moona	12
 destillera	12
 benämna	12
 bordlägga	12
-återgiva	12
 patentera	12
 lagga	12
 tröska	12
@@ -1949,6 +1982,7 @@ atombomba	11
 svartna	11
 besiktiga	11
 vederböra	11
+dra över	11
 sava	11
 slussa	11
 snusa	11
@@ -1963,6 +1997,7 @@ anslå	11
 kontraktera	11
 modella	11
 nyansera	11
+lösa av	10
 löda	10
 amortera	10
 beteckna	10
@@ -1971,6 +2006,7 @@ stånga	10
 begynna	10
 ämna	10
 efterfråga	10
+komma överens	10
 ragla	10
 etikettera	10
 arrendera	10
@@ -1994,6 +2030,7 @@ spisa	9
 fördraga	9
 förstena	9
 kapsejsa	9
+mata in	9
 inflika	9
 vidtaga	9
 detektera	9
@@ -2011,9 +2048,11 @@ missionera	8
 åklaga	8
 kläda	8
 dubbelklicka	8
+återgiva	8
 varsla	8
 avse	8
 omdana	8
+ladda ner	8
 reklamera	8
 insjukna	8
 biträda	8
@@ -2026,20 +2065,23 @@ skarva	8
 negligera	8
 handlägga	8
 jämställa	8
+invandra	7
 subventionera	7
 orma	7
 annektera	7
+ta bort	7
+utställa	7
 devalvera	7
 kirra	7
 plita	7
 raffinera	7
 knö	7
 murkna	7
-tanda	7
 proklamera	7
 gånga	7
 karakterisera	7
 schackra	7
+skjuta upp	7
 figurera	7
 barbera	7
 förestå	7
@@ -2061,31 +2103,30 @@ kontrastera	6
 besvärja	6
 kinesa	6
 filmatisera	6
+fyra av	6
 utbrista	6
 församla	6
 böra	6
 laka	6
+tråka ut	6
 slutta	6
-gifva	6
 avfalla	6
 upplåta	6
 intervenera	6
-invandra	5
 inordna	5
+konstituera	5
+köpa ut	5
 vurma	5
 ackumulera	5
 barka	5
 menstruera	5
-spamma	5
 hölja	5
 ruffa	5
 adla	5
 försänka	5
 frånvara	5
 nedsätta	5
-uppräkna	5
 karaktärisera	5
-bortskänka	5
 implicera	5
 sleva	5
 vitna	5
@@ -2107,15 +2148,18 @@ tillkomma	4
 bedröva	4
 armbåga	4
 standardisera	4
+hvila	4
 förlisa	4
 utarma	4
 pila	4
 bedraga	4
 immigrera	4
 kompostera	4
+tanda	4
 nedslå	4
 anrätta	4
 hägna	4
+ropa in	4
 hårdna	4
 konstbevattna	4
 bärsa	4
@@ -2127,13 +2171,18 @@ besvika	4
 kondensera	4
 övervara	4
 spinga	4
+lägga till	4
+svämma över	4
 blippa	4
 vidareutbilda	4
 harmonisera	4
 värmebehandla	4
 exemplifiera	4
-fermentera	3
+rulla ut	4
+uppgiva	3
+räkna ut	3
 stigmatisera	3
+pricka av	3
 förordna	3
 hinta	3
 anlöpa	3
@@ -2141,6 +2190,7 @@ artbestämma	3
 åtaga	3
 formalisera	3
 skalda	3
+atrofiera	3
 exekvera	3
 swisha	3
 konkretisera	3
@@ -2150,7 +2200,7 @@ trafikera	3
 automatisera	3
 aktualisera	3
 utsträcka	3
-undantaga	3
+intränga	3
 konkursa	3
 kvadrera	3
 fortlöpa	3
@@ -2159,6 +2209,7 @@ idissla	3
 fragmentera	3
 popularisera	3
 girera	3
+gräva ut	3
 crawla	3
 bespisa	3
 hyfsa	3
@@ -2168,11 +2219,13 @@ postulera	3
 förete	3
 sovra	3
 desillusionera	3
+komma ihåg	3
 bortta	3
 krackelera	3
 disputera	3
 mojna	3
 straffknulla	3
+hålla med	3
 strecka	3
 förgäta	3
 burra	3
@@ -2182,26 +2235,37 @@ svärja	2
 utgiva	2
 accentuera	2
 förhandsgranska	2
-atrofiera	2
+förtycka	2
 utvandra	2
 gränsa	2
 demobilisera	2
 innovera	2
 miniatyrisera	2
 upphetsa	2
+lägga på	2
+sätta på	2
 sammansluta	2
 gulna	2
 profetera	2
+fnula	2
 upptaga	2
 diarieföra	2
 hösta	2
+företaga	2
 masskommunicera	2
+skrinlägga	2
 docera	2
+läsa upp	2
+falsifiera	2
 calla	2
 repatriera	2
 bilägga	2
 protokollföra	2
 focka	2
+ställa in	2
+lasta av	2
+elefanta	2
+komma fram	2
 musicera	2
 beslå	2
 abonnera	2
@@ -2213,7 +2277,6 @@ bedåra	2
 usurpera	2
 kvälja	2
 innehava	2
-embarkera	2
 beckna	2
 skikta	2
 individualisera	2
@@ -2222,10 +2285,9 @@ abstrahera	2
 borttaga	2
 öronmärka	2
 åskådliggöra	2
-globalisera	2
+värma upp	2
 indriva	2
 svinna	2
-legera	2
 vitmena	2
 kroma	2
 överantvarda	2
@@ -2233,6 +2295,7 @@ fingranska	2
 undanta	2
 laja	2
 uppställa	1
+fermentera	1
 vattenplana	1
 grundlägga	1
 huta	1
@@ -2240,22 +2303,36 @@ uppvärma	1
 glesna	1
 sjukna	1
 differentiera	1
+lemna	1
 tillkännagiva	1
+skänka bort	1
 avstava	1
 gejma	1
-utställa	1
+kasta upp	1
+normera	1
 osynliggöra	1
+konstbefrukta	1
+korka upp	1
+förehålla	1
 utvälja	1
+slå hål	1
+mälta	1
+folkbokföra	1
 övergiva	1
 estetisera	1
 överenskomma	1
 avannonsera	1
 asgarva	1
+jämnställa	1
 känneteckna	1
 svarva	1
 sorla	1
+inflyta	1
 premiera	1
+spamma	1
 interferera	1
+tunnla	1
+divergera	1
 ysta	1
 förklena	1
 votera	1
@@ -2263,26 +2340,32 @@ ackordera	1
 vabba	1
 omnämna	1
 återförsäkra	1
-intränga	1
+lättna	1
 diffundera	1
 ordbajsa	1
+dekretera	1
 kalligrafera	1
 inströmma	1
 faktorisera	1
 uppfölja	1
+uppräkna	1
 frasera	1
 bepröva	1
 begiva	1
-skrinlägga	1
 stegla	1
 utbjuda	1
+ställa ut	1
 versifiera	1
 utta	1
 valpa	1
-falsifiera	1
+överstå	1
 knottra	1
+bortskänka	1
 kontrahera	1
+irisera	1
 klorera	1
+avsminka	1
+stänga av	1
 förboka	1
 forta	1
 boffa	1
@@ -2298,24 +2381,38 @@ förfäkta	1
 förteckna	1
 öna	1
 kodifiera	1
+allitterera	1
 transponera	1
 omgiva	1
 kursivera	1
+räkna upp	1
+räkna ned	1
+gifva	1
+styra upp	1
 approximera	1
+affirmera	1
 assurera	1
 fridlysa	1
+blåsa upp	1
+dåra	1
 sekundera	1
+embarkera	1
 plurra	1
-föredraga	1
+skriva under	1
+vidhäfta	1
 glödga	1
+globalisera	1
 utkomma	1
 frasa	1
 kölna	1
 påbjuda	1
 evaluera	1
+förbehålla	1
+spela upp	1
 adjungera	1
 derivera	1
 iakttaga	1
+legera	1
 problematisera	1
 åhöra	1
 seeda	1

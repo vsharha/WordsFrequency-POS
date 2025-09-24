@@ -74,6 +74,7 @@ gėjus	313
 pavardė	307
 byla	295
 oras	287
+smegenys	282
 alkanas	280
 dantis	275
 tvarka	274
@@ -121,6 +122,7 @@ medis	167
 įvykis	164
 asmuo	164
 gatvė	162
+pietūs	160
 vaiduoklis	160
 laisvė	156
 pergalė	155
@@ -179,6 +181,7 @@ langas	102
 tiltas	102
 lokys	101
 voras	101
+marškiniai	98
 pilis	98
 prostitutė	98
 upė	97
@@ -208,6 +211,8 @@ tortas	81
 gyvūnas	80
 liežuvis	80
 šonas	80
+nuodai	79
+grindys	76
 prietaisas	76
 sportas	76
 krūtinė	75
@@ -293,14 +298,17 @@ skystis	43
 bendruomenė	43
 deimantas	43
 dėmė	43
+vakarai	42
 varnas	42
 anglas	42
 šiukšlės	42
 degtinė	42
+kepenys	41
 randas	41
 vertimas	41
 diskas	41
 moneta	40
+rytai	40
 selenas	40
 karstas	39
 pelėda	39
@@ -317,6 +325,7 @@ urvas	37
 avinas	37
 bruožas	37
 cukrus	37
+kopėčios	36
 paplūdimys	36
 rinkinys	36
 aikštė	36
@@ -333,6 +342,7 @@ dalelė	34
 lizdas	32
 parama	32
 įlanka	32
+žirklės	32
 gerklė	32
 kaukolė	31
 mįslė	31
@@ -364,6 +374,7 @@ veja	27
 driežas	27
 fizika	27
 kurmis	26
+lubos	26
 mąstymas	26
 mėlynė	26
 trikampis	26
@@ -461,6 +472,7 @@ paradoksas	14
 pulkas	14
 raumuo	14
 rupūžė	14
+taukai	14
 vienetas	14
 arkliukas	14
 azotas	14
@@ -476,6 +488,7 @@ gruodis	12
 krokodilas	12
 krėslas	12
 nuosmukis	12
+riebalai	12
 sraigtas	12
 alkūnė	12
 ugnikalnis	12
@@ -541,6 +554,7 @@ arkangelas	8
 dubuo	8
 geometrija	8
 impotencija	7
+marios	7
 naudotojas	7
 parlamentas	7
 pažastis	7
@@ -625,7 +639,6 @@ roplys	4
 santvarka	4
 saulėgrąža	4
 savitvarda	4
-sinagoga	4
 socializmas	4
 spermatozoidas	4
 sueitis	4
@@ -681,6 +694,7 @@ būdvardis	3
 chloras	3
 danga	3
 dieviškumas	3
+dobermanas	3
 epicentras	3
 erotika	3
 estė	3
@@ -688,8 +702,10 @@ geologija	3
 grafystė	3
 gvazdikas	2
 ispanė	2
+išangė	2
 išnaudotoja	2
 judaizmas	2
+kaimanas	2
 klavišas	2
 latakas	2
 lingvistika	2
@@ -721,6 +737,7 @@ ypatingumas	2
 žirgelis	2
 žirnis	2
 žmogiškumas	2
+azerbaidžanietis	2
 baitas	2
 batutas	2
 bongas	2
@@ -732,8 +749,6 @@ geluonis	2
 gilė	2
 hidratas	1
 homoseksualumas	1
-išangė	1
-kaimanas	1
 kaitra	1
 kaktusas	1
 kalbotyra	1
@@ -755,6 +770,7 @@ naudininkas	1
 nekrologas	1
 neutrinas	1
 nutarimas	1
+opiatas	1
 opijus	1
 ortografija	1
 padargas	1
@@ -765,6 +781,7 @@ pjaustymas	1
 pornografas	1
 afganas	1
 santrumpa	1
+sinagoga	1
 skėrys	1
 albanas	1
 albanė	1
@@ -789,6 +806,7 @@ aulas	1
 avietė	1
 bromas	1
 bybys	1
+būras	1
 chromas	1
 cinkas	1
 degutas	1

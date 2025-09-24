@@ -81,6 +81,7 @@ společnost	24156
 právo	24013
 šance	23925
 tisíc	23725
+prachy	23692
 cesta	23305
 spousta	23262
 nemocnice	22972
@@ -175,6 +176,7 @@ potřeba	13039
 test	12973
 energie	12913
 letadlo	12836
+narozeniny	12836
 víkend	12695
 večeře	12499
 obličej	12417
@@ -227,6 +229,7 @@ pátek	9973
 vláda	9920
 dar	9918
 zločin	9870
+kalhoty	9841
 kontakt	9836
 stav	9806
 blbost	9740
@@ -289,6 +292,7 @@ letiště	7717
 období	7715
 kočka	7676
 přátelství	7676
+zboží	7654
 okno	7627
 ostrov	7617
 teorie	7579
@@ -345,6 +349,7 @@ závod	6415
 jed	6404
 prase	6397
 zlo	6388
+brýle	6355
 rozum	6323
 vesmír	6289
 míč	6284
@@ -582,6 +587,7 @@ výbuch	3467
 laboratoř	3464
 vrchol	3445
 hrozba	3444
+nádobí	3444
 banka	3432
 dřevo	3428
 kontrola	3419
@@ -679,12 +685,14 @@ předmět	2776
 jez	2762
 popel	2737
 pás	2732
+játra	2730
 značka	2730
 hovězí	2728
 máslo	2720
 náklad	2717
 smutek	2713
 provoz	2709
+kalhotky	2700
 konverzace	2687
 církev	2685
 štít	2684
@@ -942,11 +950,13 @@ zobák	1511
 úředník	1510
 munice	1507
 maska	1503
+džíny	1501
 jeviště	1500
 náušnice	1491
 droga	1488
 účinek	1485
 mýdlo	1479
+křoví	1478
 továrna	1476
 tok	1475
 metr	1471
@@ -956,8 +966,10 @@ stříbro	1467
 mistrovství	1466
 pitomost	1466
 pojem	1465
+šachy	1464
 autor	1462
 kandidát	1462
+plavky	1462
 dvojka	1460
 euro	1457
 ulička	1455
@@ -998,6 +1010,7 @@ ambice	1371
 otroctví	1370
 tank	1367
 demokracie	1366
+nebesa	1366
 procházka	1366
 komedie	1362
 výška	1357
@@ -1030,9 +1043,11 @@ páteř	1299
 hamburger	1297
 peněženka	1297
 technik	1297
+čáry	1296
 podlaží	1295
 bunda	1292
 vojsko	1292
+vepřové	1290
 status	1289
 látka	1288
 šátek	1284
@@ -1215,6 +1230,7 @@ příliv	948
 hrnec	947
 výroba	947
 vypínač	946
+kruhy	940
 rejstřík	938
 budík	936
 náhrada	935
@@ -1325,6 +1341,7 @@ veverka	778
 zmije	778
 krocan	777
 mráz	777
+kleště	775
 nepřátelství	775
 vyhledávání	773
 hala	771
@@ -1550,6 +1567,7 @@ tác	520
 pochybnost	519
 skladba	518
 lednička	517
+genitálie	516
 hláška	516
 památka	516
 prdelka	514
@@ -1572,6 +1590,7 @@ mýval	499
 vak	498
 hořčice	497
 opona	497
+kraťasy	495
 vazba	495
 kávovar	494
 kokos	493
@@ -1656,11 +1675,13 @@ zbroj	424
 mísa	421
 úrok	421
 pálka	420
+bikiny	419
 dinosaurus	419
 potok	419
 bída	418
 certifikát	418
 příjemce	418
+slipy	418
 vada	418
 figurka	417
 literatura	417
@@ -1690,6 +1711,7 @@ investor	396
 výklad	396
 nábřeží	395
 narkoman	395
+skot	395
 kosa	394
 kobra	393
 odbor	393
@@ -1765,6 +1787,7 @@ trestanec	349
 rtuť	347
 hladomor	346
 výrok	346
+dudy	345
 fungování	345
 anténa	344
 kytarista	344
@@ -1803,6 +1826,7 @@ koalice	321
 podplukovník	319
 poločas	318
 pračka	318
+sáně	318
 špendlík	318
 vidlička	318
 víčko	317
@@ -1960,6 +1984,7 @@ ubrus	227
 nadbytek	226
 porodnice	226
 nebožtík	225
+vata	225
 kladívko	224
 myčka	224
 mech	223
@@ -1982,12 +2007,14 @@ housenka	215
 obuv	215
 postroj	215
 zadák	215
+vidle	214
 flám	213
 baletka	212
 družice	212
 posilovna	212
 šnek	212
 věšák	212
+rozpaky	211
 televizor	211
 avokádo	210
 ohniště	209
@@ -2092,7 +2119,6 @@ abeceda	163
 glóbus	163
 křída	163
 tesák	163
-brva	162
 petržel	162
 těžiště	162
 diagram	161
@@ -2149,6 +2175,7 @@ pakáž	145
 stavení	145
 amnestie	144
 badatel	144
+bedra	143
 jamka	143
 krupobití	143
 pískoviště	143
@@ -2161,6 +2188,7 @@ kopírka	140
 zákoník	140
 keramika	139
 laťka	139
+rákosí	139
 průplav	138
 sebeúcta	138
 absces	137
@@ -2181,6 +2209,7 @@ kajak	132
 klenotník	132
 raft	132
 jahoda	131
+jesle	131
 kobyla	130
 loch	130
 pláň	130
@@ -2203,6 +2232,7 @@ malina	125
 pavián	124
 prs	124
 stonožka	124
+žábry	124
 hruška	123
 bagr	122
 otravování	122
@@ -2254,6 +2284,7 @@ akustika	107
 řečiště	107
 brašna	106
 buddhista	106
+nylon	106
 smeč	106
 anonymita	105
 faktura	105
@@ -2380,6 +2411,7 @@ sardinka	73
 soulad	73
 tloušťka	73
 vráska	73
+vrhcáby	73
 zvěrstvo	73
 bečka	72
 kastrol	72
@@ -2422,6 +2454,7 @@ kapání	64
 vaječník	64
 alegorie	63
 bárka	63
+chechtáky	63
 parcela	63
 upoutávka	63
 kosatka	62
@@ -2590,6 +2623,7 @@ famfrpál	31
 mikroprocesor	31
 skvělost	31
 spotřebitel	31
+stromoví	31
 višeň	31
 acidóza	30
 běloba	30
@@ -2598,7 +2632,6 @@ kremrole	30
 slánka	30
 slivovice	30
 vorvaň	30
-krovka	29
 předložka	29
 směrovka	29
 vepřík	29
@@ -2609,6 +2642,7 @@ hochštapler	28
 potravina	28
 škrabka	28
 vychytávka	28
+žestě	28
 absurdita	27
 hláska	27
 káče	27
@@ -2680,6 +2714,7 @@ uzda	19
 antihistaminikum	18
 peptid	18
 platan	18
+povidla	18
 vozovka	18
 vzduchoprázdno	18
 deklinace	17
@@ -2808,6 +2843,7 @@ logik	7
 mačka	7
 minolovka	7
 pochyba	7
+raménko	7
 rváček	7
 ryska	7
 souputník	7
@@ -2857,7 +2893,6 @@ ankylóza	3
 anoda	3
 bábovička	3
 boran	3
-čirůvka	3
 furiant	3
 hastrman	3
 ježovka	3
@@ -2875,17 +2910,21 @@ vrásnění	3
 ablativ	2
 alela	2
 alergologie	2
+anapest	2
 anglistika	2
 animozita	2
 arabistika	2
 arménština	2
 binárka	2
 boltcovitka	2
+čirůvka	2
 dršťka	2
 fenomenologie	2
 grín	2
 grýn	2
 homofon	2
+homofonum	2
+hornatina	2
 islandština	2
 kalk	2
 libela	2
@@ -2931,6 +2970,7 @@ biliarda	1
 bóra	1
 botel	1
 břichatka	1
+brva	1
 členitost	1
 dešťovka	1
 droba	1
@@ -2938,6 +2978,8 @@ duál	1
 jazykozpytec	1
 kaolin	1
 kaolín	1
+kristadelfián	1
+krovka	1
 kvasinka	1
 lustrace	1
 marketér	1
@@ -2957,12 +2999,13 @@ pýchavka	1
 rabiát	1
 radiolokace	1
 radiometrie	1
-raménko	1
 rejda	1
+rojník	1
 štítovka	1
 stridulace	1
 supercela	1
 tříčtvrtka	1
+trigraf	1
 vazák	1
 voskovka	1
 vrchovina	1

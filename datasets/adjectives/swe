@@ -1043,6 +1043,7 @@ legal	50
 fjättrad	50
 utvidgad	49
 beläst	49
+lyckt	49
 välsmakande	49
 förbunden	49
 integrerad	49
@@ -1072,6 +1073,7 @@ rutig	45
 fåordig	45
 keltisk	45
 undantagen	45
+sistnämnd	45
 högtidlig	45
 kompatibel	44
 multipel	44
@@ -1462,6 +1464,7 @@ kitschig	8
 dogmatisk	8
 annullerad	8
 börjad	8
+ovannämnd	8
 kvadratisk	8
 inlärd	8
 periodisk	8
@@ -1543,6 +1546,7 @@ diametral	6
 biografisk	6
 nederländsk	6
 ekvivalent	6
+stockholmsk	6
 fullgjord	6
 minnesgod	5
 avhandlad	5
@@ -1614,6 +1618,7 @@ amorf	4
 metallurgisk	4
 naturhistorisk	4
 isometrisk	4
+euklidisk	3
 samordnande	3
 murken	3
 briserad	3
@@ -1627,6 +1632,8 @@ dividerad	3
 arrangerande	3
 anlöpt	3
 dikterad	3
+ettstruken	3
+abessinsk	3
 förfaren	3
 idérik	3
 förutsedd	3
@@ -1648,15 +1655,18 @@ sammanhållande	3
 burgen	3
 likformig	3
 flydd	3
+finlandssvensk	3
 fullmäktig	3
 könsneutral	3
 konvergent	3
 otvivelaktig	3
 andtruten	3
 postindustriell	3
+bilagd	2
 stokastisk	2
 oskiljaktig	2
 backad	2
+westfalisk	2
 zoologisk	2
 areell	2
 kommenterad	2
@@ -1679,6 +1689,7 @@ rälig	2
 avhållen	2
 fraktal	2
 förestådd	2
+gotländsk	2
 arrenderad	2
 bolagiserad	2
 blåklintsblå	2
@@ -1688,6 +1699,7 @@ administrerad	2
 slagrörd	2
 encyklopedisk	2
 ivoriansk	2
+asturisk	2
 baltisk	2
 sudansk	2
 hållfast	2
@@ -1701,6 +1713,7 @@ barkad	2
 brukad	2
 vinddriven	2
 fallisk	2
+adiabatisk	2
 falsifierad	2
 vitaktig	2
 maskinteknisk	2
@@ -1711,7 +1724,6 @@ begynd	2
 nepalesisk	2
 extraherad	2
 viskös	2
-sistnämnd	2
 fyrfotad	1
 paralell	1
 otagbar	1
@@ -1732,8 +1744,13 @@ defragmenterad	1
 eskalerad	1
 halsad	1
 blommad	1
+själisk	1
 pythagoreisk	1
 hexagonal	1
+bakåtkompatibel	1
+kriminologisk	1
+gälisk	1
+treven	1
 diarieförd	1
 öppenhjärtlig	1
 fiskal	1
@@ -1745,6 +1762,7 @@ demobiliserad	1
 fiskad	1
 karmosinröd	1
 mysteriös	1
+alaskisk	1
 pandemisk	1
 etnografisk	1
 formaliserad	1
@@ -1758,14 +1776,17 @@ bitad	1
 tillhörig	1
 grundlagsvidrig	1
 bedriven	1
+hypnagog	1
 applåderad	1
 vänsterextrem	1
 absolutistisk	1
 allittererad	1
 småskuren	1
 evaluerad	1
+genomsynlig	1
 adjungerad	1
 årsvis	1
+kackig	1
 förent	1
 bryggad	1
 bommad	1
@@ -1783,9 +1804,13 @@ agrar	1
 amorterad	1
 begripen	1
 fraserad	1
+marinbiologisk	1
 behållen	1
 fakturerad	1
+osvensk	1
 småelak	1
+allsvensk	1
+boolesk	1
 atomär	1
 tunnlad	1
 ohemul	1
@@ -1797,6 +1822,7 @@ aritmetisk	1
 erinrad	1
 differentierad	1
 artbestämd	1
+abelsk	1
 assurerad	1
 färgäkta	1
 formaterad	1
@@ -1804,6 +1830,7 @@ resurskrävande	1
 citrongul	1
 biträdd	1
 söndagskörd	1
+andorransk	1
 kvasiintellektuell	1
 anakronistisk	1
 acklimatiserad	1
@@ -1812,10 +1839,14 @@ yttrad	1
 dekrypterad	1
 ytterlig	1
 kosmologisk	1
+upphovsrättslig	1
 främlingsfientlig	1
 terroriserande	1
 postkolonial	1
+paramagnetisk	1
 editerad	1
 anrättad	1
 debatterad	1
 vederstygglig	1
+savig	1
+veterinärmedicinsk	1

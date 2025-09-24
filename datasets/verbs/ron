@@ -238,6 +238,7 @@ munci	2410
 înlocui	2409
 comunica	2404
 scurge	2351
+împăra	2350
 studia	2326
 îndrăzni	2325
 întrerupe	2315
@@ -614,6 +615,7 @@ croi	177
 înfunda	176
 naște	175
 nenoroci	175
+mânea	174
 satura	174
 păta	173
 împărți	173
@@ -633,12 +635,12 @@ răcori	154
 înșela	154
 cinsti	154
 îmbunătăți	152
-împuți	151
 zbiera	150
 cutremura	148
 mustra	147
 răpune	144
 anima	144
+deștepta	144
 împunge	143
 înfăptui	143
 înjosi	143
@@ -729,7 +731,6 @@ momi	79
 asemăna	78
 dezbina	78
 forja	78
-deștepta	76
 ejacula	76
 preoți	75
 umbri	75
@@ -747,6 +748,7 @@ amaneta	70
 avorta	70
 persevera	69
 excela	69
+hămesi	67
 pieptăna	67
 tuși	67
 făuri	67
@@ -768,7 +770,6 @@ fărâma	56
 scobi	55
 grăi	54
 puncta	54
-scoace	54
 sfinți	54
 abdica	53
 moșteni	53
@@ -776,6 +777,7 @@ afuma	53
 turba	53
 încăleca	53
 așeza	53
+dărăpăna	53
 stărui	52
 tinctura	52
 oftica	51
@@ -825,7 +827,6 @@ ofta	40
 deda	40
 descheia	40
 gravita	39
-mânea	39
 pulsa	39
 tăgădui	39
 împovăra	39
@@ -869,6 +870,7 @@ cloci	28
 mura	27
 prevesti	27
 întrezări	27
+țăcăni	27
 delimita	27
 mâzgăli	26
 petici	26
@@ -877,6 +879,8 @@ adăpa	26
 deceda	26
 făptui	26
 gudura	25
+răguși	25
+împuți	25
 înnegri	25
 însărcina	25
 păți	24
@@ -896,6 +900,7 @@ vântura	23
 împăuna	23
 înțepa	23
 asuda	23
+corci	23
 mâhni	22
 înrudi	22
 întrevedea	22
@@ -909,6 +914,7 @@ sufleca	21
 înrăma	21
 ascuți	21
 cuminți	21
+împăduri	20
 clăti	20
 destupa	20
 intenționa	19
@@ -916,6 +922,7 @@ răcni	19
 îndurera	19
 întreține	19
 cerca	19
+pășuna	18
 rezema	18
 aiura	18
 îmbogăți	18
@@ -960,6 +967,7 @@ spurca	13
 tâmpi	13
 undui	13
 înnoi	13
+înverșuna	13
 propti	12
 săgeta	12
 trăsni	12
@@ -974,6 +982,7 @@ săra	11
 degera	11
 dezmetici	11
 istovi	10
+răscoace	10
 sfâșia	10
 vădi	10
 înseta	10
@@ -984,7 +993,6 @@ leșina	9
 plivi	9
 îmboldi	9
 șovăi	9
-dezmăța	9
 licări	8
 pișa	8
 răsfira	8
@@ -998,6 +1006,7 @@ dezavantaja	8
 oripila	7
 aera	7
 rușina	7
+scoace	7
 ameți	7
 îmbulzi	7
 împrejmui	7
@@ -1005,7 +1014,7 @@ ameți	7
 înfumura	7
 învolbura	7
 ședea	7
-bășica	7
+cinge	7
 conteni	7
 copleși	7
 cotropi	7
@@ -1018,6 +1027,7 @@ roși	6
 slugări	6
 îmbia	6
 împila	6
+înjuga	6
 înșuruba	6
 ținti	6
 așterne	6
@@ -1044,16 +1054,15 @@ treiera	4
 îmbuca	4
 borî	4
 cerși	4
-desculța	4
 dezgheța	4
 emoționa	4
 scărmăna	3
 sumete	3
 amuți	3
 voame	3
-împăra	3
+împroprietări	3
+încura	3
 înfricoșa	3
-înjuga	3
 înmărmuri	3
 înnegura	3
 însufleți	3
@@ -1068,12 +1077,14 @@ dospi	3
 dumica	3
 iscăli	2
 memoriza	2
+mistifica	2
 mișuna	2
 aciua	2
+povârni	2
 adumbri	2
 prăsi	2
+prăși	2
 păduchea	2
-refeca	2
 scăpăra	2
 scăpăta	2
 sfecli	2
@@ -1087,20 +1098,21 @@ anina	2
 înfrăți	2
 înfășura	2
 înrădăcina	2
-cinge	2
+bășica	2
 cumineca	2
 cumpăta	2
+desculța	2
 dărăci	2
 junghia	1
 linguși	1
-mistifica	1
 narcotiza	1
 pasteuriza	1
 peți	1
 pingeli	1
-prăși	1
 afâna	1
+refeca	1
 răposa	1
+saliniza	1
 spuzi	1
 subția	1
 trepăda	1
@@ -1110,6 +1122,7 @@ viermui	1
 zbici	1
 împrejura	1
 încăla	1
+încărunți	1
 îndobitoci	1
 înfoca	1
 înfățișa	1
@@ -1119,9 +1132,9 @@ zbici	1
 înrâuri	1
 întortochea	1
 întrebuința	1
+înșeua	1
 înșira	1
 țigăni	1
-țăcăni	1
 ațipi	1
 bălăi	1
 canoni	1
@@ -1129,7 +1142,6 @@ chițăi	1
 cocoloși	1
 comânda	1
 coperi	1
-corci	1
 cumpli	1
 dejuga	1
 deloga	1
@@ -1141,6 +1153,7 @@ desfășa	1
 despune	1
 dezdoi	1
 dezminți	1
+dezmăța	1
 dezrobi	1
 deșela	1
 deșira	1
