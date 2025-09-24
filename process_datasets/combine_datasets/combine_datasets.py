@@ -116,7 +116,7 @@ def combine_sorted_all(frequency_dir: Union[Path, str, None]=None, unimorph_dir:
 
     return output
 
-def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, delimiter="\t", parts_of_speech=None, output_pos_tags=True) -> None:
+def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, delimiter="\t", parts_of_speech=None, output_pos_tags=True, min_len: Union[int, None]=None) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
@@ -126,7 +126,7 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
 
     output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, parts_of_speech, output_pos_tags)
 
-    if not output:
+    if not output or min_len is not None and min_len > len(output):
         print("Not enough data")
         if output_path.exists():
             output_path.unlink()
@@ -138,7 +138,7 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
 
         writer.writerows(output)
 
-def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True) -> None:
+def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True, min_len=None) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
@@ -156,4 +156,4 @@ def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Unio
 
         print(f"Processing {code}...")
 
-        output_combined_single(code, output_dir, frequency_dir, unimorph_dir, max_len, inflections, delimiter, parts_of_speech, output_pos_tags)
+        output_combined_single(code, output_dir, frequency_dir, unimorph_dir, max_len, inflections, delimiter, parts_of_speech, output_pos_tags, min_len)
