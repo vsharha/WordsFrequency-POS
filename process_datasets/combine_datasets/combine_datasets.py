@@ -51,11 +51,16 @@ def build_frequency_map(code: str, frequency_dir: Union[Path, str, None]=None, l
 def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map_len=None, inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True, check_inflections:bool=False) -> Iterator[list]:
     frequency_map: dict[str, str] = build_frequency_map(code, frequency_dir, len=frequency_map_len)
 
+    current_entry: list = []
+
     for morph_entry in unimorph_iterator(code, unimorph_dir):
         if not morph_entry:
             continue
 
         lemma, inflected, pos_tags = morph_entry
+
+        if current_entry[0] != lemma:
+            current_entry = morph_entry
 
         if parts_of_speech is not None:
             pos_list = pos_tags.split(";")
@@ -74,7 +79,7 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
 
         if check_inflections and inflected_freq and inflected_freq.isnumeric():
             if output_pos_tags:
-                yield [lemma, inflected_freq, pos_tags]
+                yield [lemma, inflected_freq, current_entry[2]]
             else:
                 yield [lemma, inflected_freq]
 
