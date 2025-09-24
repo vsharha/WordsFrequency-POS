@@ -2,6 +2,7 @@ ek	12328
 jy	8024
 en	5203
 ons	4858
+metaalvat	4298
 van	3843
 te	3154
 hy	2904
@@ -874,7 +875,9 @@ wors	12
 wysheid	12
 aanskou	11
 afstand	11
+aks	11
 aksie	11
+aar	11
 atmosfeer	11
 basis	11
 begeerte	11
@@ -2507,12 +2510,14 @@ bord	2
 bordeaux	2
 borsel	2
 bot	2
+boud	2
 bouery	2
 bourgeois	2
 brandewyn	2
 brandglas	2
 brandstapel	2
 brommer	2
+bruispaar	2
 bruilof	2
 bruin	2
 buik	2
@@ -3271,6 +3276,7 @@ advertensie	1
 afdeling	1
 afdruk	1
 affêre	1
+afstudeerde	1
 afgod	1
 afguns	1
 afhandeling	1
@@ -3483,7 +3489,9 @@ bottermes	1
 boufonds	1
 boukuns	1
 bouperseel	1
+bout	1
 braambos	1
+brak	1
 brander	1
 branderplank	1
 brandhout	1
@@ -3502,6 +3510,7 @@ briewebus	1
 brigadier	1
 broederskap	1
 broeikas	1
+brok	1
 brons	1
 broodrolletjie	1
 bros	1
@@ -3591,6 +3600,7 @@ donateur	1
 donna	1
 donner	1
 doodloopstraat	1
+doodsang	1
 doodsteek	1
 doodstraf	1
 doofheid	1
@@ -3634,6 +3644,7 @@ dwaling	1
 dwelmhandelaar	1
 dwelmmisbruik	1
 dwelmverslaafde	1
+dwerg	1
 dy	1
 eden	1
 eekhoring	1
@@ -3692,6 +3703,7 @@ erfgenaam	1
 erfgename	1
 erfstuk	1
 erkentenis	1
+ert	1
 es	1
 eskader	1
 eskapade	1
@@ -3724,6 +3736,7 @@ fiskus	1
 flank	1
 flarde	1
 flater	1
+flenter	1
 flerrie	1
 fliek	1
 flikkering	1
@@ -3762,7 +3775,9 @@ geesdrif	1
 gegoede	1
 gehaas	1
 gehoorsaamheid	1
+gehug	1
 geïsoleerde	1
+geit	1
 geitjie	1
 gejammer	1
 gekarring	1
@@ -3834,6 +3849,7 @@ grafkamer	1
 grafsteen	1
 grasie	1
 grasveld	1
+grein	1
 grensdorp	1
 grensgeval	1
 groenheid	1
@@ -3872,6 +3888,7 @@ handpalm	1
 handskoen	1
 handvatsel	1
 handvol	1
+hanger	1
 hangslot	1
 hap	1
 hardekop	1
@@ -3996,6 +4013,7 @@ interneringskamp	1
 interpretasie	1
 intimidasie	1
 inval	1
+invore	1
 invordering	1
 item	1
 jackpot	1
@@ -4098,6 +4116,7 @@ kloon	1
 klopjag	1
 klug	1
 kluis	1
+kluisenaar	1
 knak	1
 kneukel	1
 kniekussing	1
@@ -4166,6 +4185,7 @@ kras	1
 krat	1
 kreatiwiteit	1
 krediet	1
+kriesel	1
 kripto	1
 kripton	1
 kritikus	1
@@ -4250,6 +4270,7 @@ linde	1
 linker	1
 linkervoet	1
 linne	1
+lipstif	1
 lit	1
 litium	1
 loge	1
@@ -4363,6 +4384,7 @@ moederliefde	1
 moedswil	1
 moer	1
 moeras	1
+mof	1
 monarg	1
 mondfluit	1
 mondkanker	1
@@ -4635,6 +4657,7 @@ plons	1
 poedel	1
 poeding	1
 poeiermelk	1
+poel	1
 poep	1
 poephol	1
 pointillisme	1
@@ -4762,6 +4785,7 @@ ruimtereis	1
 ruit	1
 rum	1
 rusbank	1
+ruskans	1
 ruspouse	1
 rustigheid	1
 rybewys	1
@@ -4772,6 +4796,7 @@ rykste	1
 rym	1
 ryspoeding	1
 sabel	1
+sabel2	1
 saga	1
 sage	1
 sahara	1
@@ -4836,6 +4861,7 @@ sissie	1
 siter	1
 sitvlak	1
 sjokoladekoek	1
+skaaklub	1
 skaakstel	1
 skakelaar	1
 skatting	1
@@ -4865,6 +4891,7 @@ skoolvriend	1
 skoolwerk	1
 skoonmaakwerk	1
 skoonmoeder	1
+skoothond	1
 skoppensheer	1
 skopskoen	1
 skottelgoed	1
@@ -4952,6 +4979,7 @@ spoorweg	1
 sportwêreld	1
 spraakkuns	1
 sprankel	1
+sprank	1
 spreekwoord	1
 spreuk	1
 springstof	1
@@ -5022,6 +5050,7 @@ suurstof	1
 swaarheid	1
 swaarmoedigheid	1
 swaartekrag	1
+swael	1
 swaksinnige	1
 swakste	1
 swam	1
@@ -5094,6 +5123,7 @@ torpedo	1
 towerbeeld	1
 towerdrank	1
 towerkrag	1
+traan	1
 trattoria	1
 treffer	1
 trefslag	1
@@ -5104,6 +5134,7 @@ trekvoël	1
 tribunaal	1
 trio	1
 troefkaart	1
+troetelnaam	1
 trok	1
 trol	1
 tromboon	1
@@ -5228,6 +5259,7 @@ verpersoonliking	1
 verpesting	1
 versadiging	1
 versekering	1
+vers	1
 versie	1
 verskaffer	1
 verskrikking	1
@@ -5257,6 +5289,7 @@ vierkant	1
 vieruur	1
 viervoud	1
 vingernael	1
+vink	1
 violet	1
 violis	1
 vislyn	1
@@ -5275,6 +5308,7 @@ voedselpiramide	1
 voëlsaad	1
 voëlverklikker	1
 voering	1
+voetbad	1
 voetval	1
 vog	1
 volkslied	1
