@@ -21,6 +21,7 @@ There are pre-generated datasets included in the repo. These are in the `dataset
 -   `nouns` - singular nouns from each language with frequency data
 -   `verbs` - verbs from each language with frequency data
 -   `adjectives` - adjectives from each language with frequency data
+-   `wordle` - typical words that would be used in a wordle-like game
 
 ## Getting started
 
