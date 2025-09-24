@@ -126,6 +126,13 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
 
     output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, parts_of_speech, output_pos_tags)
 
+    if not output:
+        print("Not enough data")
+        if output_path.exists():
+            output_path.unlink()
+        return
+
+    print("Success")
     with open(output_path, "w+") as f:
         writer = csv.writer(f, delimiter=delimiter)
 
