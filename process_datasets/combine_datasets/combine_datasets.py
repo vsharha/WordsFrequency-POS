@@ -137,22 +137,31 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
         output_dir = datasets_dir / "combined"
 
     output_dir = Path(output_dir)
-    
-    output_path: Path = output_dir / code
 
-    output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, parts_of_speech, output_pos_tags, check_inflections, regex)
+    if not isinstance(parts_of_speech, list):
+        parts_of_speech = [parts_of_speech]
 
-    if not output or min_len is not None and min_len > len(output):
-        print("Not enough data")
+    for pos_list in parts_of_speech:
+        output_path: Path = output_dir / code / pos_list[0]
+
         if output_path.exists():
-            output_path.unlink()
-        return
+            continue
 
-    print("Success")
-    with open(output_path, "w+") as f:
-        writer = csv.writer(f, delimiter=delimiter)
+        output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, pos_list, output_pos_tags, check_inflections, regex)
 
-        writer.writerows(output)
+        print(pos_list)
+        if not output or min_len is not None and min_len > len(output):
+            print("Not enough data")
+            if output_path.exists():
+                output_path.unlink()
+            continue
+
+        print("Success")
+        output_path.parent.mkdir(exist_ok=True, parents=True)
+        with open(output_path, "w+") as f:
+            writer = csv.writer(f, delimiter=delimiter)
+
+            writer.writerows(output)
 
 def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True, min_len=None, check_inflections=False, regex=None) -> None:
     if output_dir is None:
