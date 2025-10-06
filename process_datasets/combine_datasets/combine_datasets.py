@@ -49,7 +49,7 @@ def build_frequency_map(code: str, frequency_dir: Union[Path, str, None]=None, l
 
     return frequency_map
 
-def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map_len=None, inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True, check_inflections:bool=False, regex=None) -> Iterator[list]:
+def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map_len=None, inflections:bool=True, parts_of_speech:Union[list, None]=None, output_pos_tags:bool=True, check_inflections:bool=False, regex:re.Pattern[str]=None, outer_join:bool=False) -> Iterator[list]:
     frequency_map: dict[str, str] = build_frequency_map(code, frequency_dir, len=frequency_map_len)
 
     current_entry: list = []
@@ -94,13 +94,13 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
                 else:
                     yield [inflected, inflected_freq]
 
-def combine_sorted_single(code, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, parts_of_speech = None, output_pos_tags=True, check_inflections=False, regex=None) -> list:
+def combine_sorted_single(code, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, parts_of_speech = None, output_pos_tags=True, check_inflections=False, regex=None, outer_join=False) -> list:
     combined = []
     seen_words = set()
 
     if max_len:
         count = 0
-    for entry in combined_iterator(code, frequency_dir, unimorph_dir, None, inflections, parts_of_speech, output_pos_tags, check_inflections, regex):
+    for entry in combined_iterator(code, frequency_dir, unimorph_dir, None, inflections, parts_of_speech, output_pos_tags, check_inflections, regex, outer_join):
         word = entry[0]
 
         if word not in seen_words:
@@ -132,7 +132,7 @@ def combine_sorted_all(frequency_dir: Union[Path, str, None]=None, unimorph_dir:
 
     return output
 
-def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, delimiter="\t", parts_of_speech=None, output_pos_tags=True, min_len: Union[int, None]=None, check_inflections=False, regex=None) -> None:
+def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, frequency_dir=None, unimorph_dir=None, max_len=None, inflections=True, delimiter="\t", parts_of_speech=None, output_pos_tags=True, min_len: Union[int, None]=None, check_inflections=False, regex=None, outer_join=False) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
@@ -147,7 +147,7 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
         if output_path.exists():
             continue
 
-        output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, pos_list, output_pos_tags, check_inflections, regex)
+        output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, pos_list, output_pos_tags, check_inflections, regex, outer_join)
 
         print(pos_list)
         if not output or min_len is not None and min_len > len(output):
@@ -163,7 +163,7 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
 
             writer.writerows(output)
 
-def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True, min_len=None, check_inflections=False, regex=None) -> None:
+def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Union[Path, str, None]=None, unimorph_dir=None, max_len=None, delimiter="\t", inflections=True, parts_of_speech=None, output_pos_tags=True, min_len=None, check_inflections=False, regex=None, outer_join=True) -> None:
     if output_dir is None:
         output_dir = datasets_dir / "combined"
 
@@ -181,4 +181,4 @@ def output_combined(output_dir: Union[Path, str, None]=None, frequency_dir: Unio
 
         print(f"Processing {code}...")
 
-        output_combined_single(code, output_dir, frequency_dir, unimorph_dir, max_len, inflections, delimiter, parts_of_speech, output_pos_tags, min_len, check_inflections, regex)
+        output_combined_single(code, output_dir, frequency_dir, unimorph_dir, max_len, inflections, delimiter, parts_of_speech, output_pos_tags, min_len, check_inflections, regex, outer_join)
