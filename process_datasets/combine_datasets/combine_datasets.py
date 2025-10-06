@@ -118,7 +118,7 @@ def combine_sorted_single(code, frequency_dir=None, unimorph_dir=None, max_len=N
                 if count >= max_len:
                     break
 
-    combined.sort(key=lambda x: int(x[1]), reverse=True)
+    combined.sort(key=lambda x: (-int(x[1]), x[0]))
     return combined
 
 def combine_sorted_all(frequency_dir: Union[Path, str, None]=None, unimorph_dir: Union[Path, str, None]=None, max_len:Union[int, None]=None, inflections:bool=True) -> dict[str, list]:
