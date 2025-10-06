@@ -1,6 +1,5 @@
 datasets/frequency/*
 datasets/unimorph/*
-datasets/wordle++/*
 fetch_unimorph/*.txt
 venv/*
 .env
