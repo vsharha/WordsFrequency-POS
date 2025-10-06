@@ -51,3 +51,4 @@ The following parameters are optional for both functions:
 -   `inflections` - whether to consider inflections in the output
 -   `parts_of_speech` - what parts of speech to include (e.g. `["V"]` for verbs, `["N", "SG"]` for singular nouns)
 -   `output_pos_tags` - whether to include part of speech tags in the output
+-   `outer_join` - whether to output unimorph entries with no corresponding frequency entry (defaults to 0)

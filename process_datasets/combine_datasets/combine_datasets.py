@@ -66,6 +66,12 @@ def combined_iterator(code, frequency_dir=None, unimorph_dir=None, frequency_map
         lemma_freq: Union[str, None] = frequency_map.get(lemma)
         inflected_freq: Union[str, None] = frequency_map.get(inflected)
 
+        if outer_join:
+            if lemma_freq is None:
+                lemma_freq = "0"
+            if inflected_freq is None:
+                inflected_freq = "0"
+
         if parts_of_speech is not None:
             if not (all(pos in pos_tags.split(";") for pos in parts_of_speech)) and not (check_inflections and all(pos in current_entry[2].split(";") for pos in parts_of_speech)):
                 continue
@@ -143,9 +149,6 @@ def output_combined_single(code:str, output_dir: Union[Path, str, None]=None, fr
 
     for pos_list in parts_of_speech:
         output_path: Path = output_dir / code / pos_list[0]
-
-        if output_path.exists():
-            continue
 
         output = combine_sorted_single(code, frequency_dir, unimorph_dir, max_len, inflections, pos_list, output_pos_tags, check_inflections, regex, outer_join)
 
